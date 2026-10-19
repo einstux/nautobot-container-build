@@ -1,4 +1,4 @@
-FROM networktocode/nautobot:3.2.4-py3.14
+FROM networktocode/nautobot:3.2.7-py3.14
 
 RUN pip install nautobot-bgp-models pykeadhcp desec-dns fqdn
 # I feel bad, but i'm also lazy
