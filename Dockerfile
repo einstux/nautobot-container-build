@@ -1,4 +1,4 @@
-FROM networktocode/nautobot:3.2.9-py3.14
+FROM networktocode/nautobot:3.2.10-py3.14
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
